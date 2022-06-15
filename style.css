@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  #landing__page {
+    background-color: hsl(257, 61%, 42%);
+    max-width: 768px;
+  }
+
+  .logo__wrapper {
+    padding: 0 0 0 56px;
+  }
+
+  .logo__img {
+    width: 120px;
+    height: 90px;
+    margin: 0;
+  }
+
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+  }
+
+  .ul__header {
+    display: flex;
+}
+
+
+  .logo__text {
+    color: #fff;
+    transform: translateX(-20%);
+    font-size: 24px;
+  }
