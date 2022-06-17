@@ -9,13 +9,23 @@
     scroll-behavior: smooth;
   }
 
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
 
   #landing__page {
-    background-color: hsl(257, 61%, 42%);
+    background-color: hsl(0, 0%, 13%)
   }
 
   .logo__wrapper {
-    padding: 0 0 0 56px;
+    padding: 0 0 0 4rem;
   }
 
   .logo__img {
@@ -27,16 +37,16 @@
   .header__nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;    
   }
 
-  .ul__header {
+  .ul__header--ctgrs {
     display: flex;
+    padding: 0 6rem;
 }
 
-
-  .logo__text {
-    color: #fff;
-    transform: translateX(-20%);
-    font-size: 24px;
+  .header__car--brands, a{
+    color: rgba(255, 255, 255, 0.863);
+    font-size: 16px;
+    padding: 0.7rem;
   }
+
