@@ -28,6 +28,12 @@
     background-color: hsl(0, 25%, 2%);
   }
 
+  .lp__bg {
+    position: absolute;
+    opacity: 0.05;
+    width: 99%;
+  }
+
   .logo__img {
     width: 120px;
     height: 90px;
@@ -75,18 +81,18 @@
 }
 
 .lp__title {
-  font-size: 56px;
-  padding: 5rem 0 1rem 0;
+  font-size: 78px;
+  padding: 8rem 0 1rem 0;
 }
 
 .lp__under-title-2 {
-  padding: 0 0 2rem 0;
+  padding: 0 0 6rem 0;
 }
 
 .lp__btn {
   display: flex;
   justify-content: center;
-  padding: 4rem 0;
+  padding: 10rem 0;
 }
 
 .button-1 {
@@ -103,3 +109,4 @@
 .button-1:active {
   transform: scale(.96);
 }
+
