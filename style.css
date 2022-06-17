@@ -19,13 +19,13 @@
     text-decoration: none;
   }
 
-
-  #landing__page {
-    background-color: hsl(0, 0%, 13%)
+  .white {
+    color: #fff;
   }
 
-  .logo__wrapper {
-    /* padding: 0 0 0 15rem; */
+
+  #landing__page {
+    background-color: hsl(0, 25%, 2%);
   }
 
   .logo__img {
@@ -37,14 +37,14 @@
   .header__nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin: 0 auto;
     max-width: 1200px;
   }
 
   .ul__header--ctgrs {
     display: flex;
-    /* padding: 0 4rem; */
+    transform: translateX(-22%);
 }
 
   .header__car--brands, a{
@@ -55,7 +55,6 @@
 
   .header__icons {
     display: flex;
-    /* transform: translateX(170%); */
   }
 
   .header__icons {
@@ -63,3 +62,44 @@
     padding: 0 .7rem;
   }
 
+.landing__page--txt {
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  /* transform: translateX(-23%); */
+  padding: 2rem 0;
+}
+
+.lp__title {
+  font-size: 56px;
+  padding: 5rem 0 1rem 0;
+}
+
+.lp__under-title-2 {
+  padding: 0 0 2rem 0;
+}
+
+.lp__btn {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.button-1 {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 9999px;
+  padding: .8rem 3.1rem;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+}
+
+.button-1:active {
+  transform: scale(.96);
+}
