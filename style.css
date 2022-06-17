@@ -25,7 +25,7 @@
   }
 
   .logo__wrapper {
-    padding: 0 0 0 4rem;
+    /* padding: 0 0 0 15rem; */
   }
 
   .logo__img {
@@ -37,16 +37,29 @@
   .header__nav {
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 768px;
   }
 
   .ul__header--ctgrs {
     display: flex;
-    padding: 0 6rem;
+    /* padding: 0 4rem; */
 }
 
   .header__car--brands, a{
     color: rgba(255, 255, 255, 0.863);
-    font-size: 16px;
-    padding: 0.7rem;
+    font-size: 18px;
+    padding: 0 .5rem;
+  }
+
+  .header__icons {
+    display: flex;
+    /* transform: translateX(170%); */
+  }
+
+  .header__icons {
+    color: #fff;
+    padding: 0 .7rem;
   }
 
