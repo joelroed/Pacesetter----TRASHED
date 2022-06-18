@@ -1,3 +1,9 @@
+/*
+
+GENERAL
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -39,6 +45,12 @@
   background: #555;
 }
 
+/*
+
+LANDING PAGE
+
+*/
+
   #landing__page {
     background-color: hsl(0, 25%, 2%);
   }
@@ -47,6 +59,7 @@
     position: absolute;
     opacity: 0.05;
     width: 99%;
+    transform: translateY(-8.5%);
   }
 
   .logo__img {
@@ -158,4 +171,31 @@
   100% {
     transform: translateY(-3px);
   }
+}
+
+/*
+
+PORSCHE 
+
+*/
+
+#porsche {
+  **
+}
+
+.porsche__logo--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-25%);
+}
+
+.porsche__logo {
+  width: 20rem;
+  height: 10rem;
+}
+
+.porsche__911 {
+  width: 60%;
+  height: 60%;
 }
