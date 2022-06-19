@@ -23,6 +23,7 @@ GENERAL
 
   a {
     text-decoration: none;
+    cursor: pointer;
   }
 
   .white {
@@ -57,9 +58,9 @@ LANDING PAGE
 
   .lp__bg {
     position: absolute;
-    opacity: 0.05;
+    opacity: 0.15;
     width: 99%;
-    transform: translateY(-8.5%);
+    transform: translateY(-10%);
   }
 
   .logo__img {
@@ -110,17 +111,17 @@ LANDING PAGE
 
 .lp__title {
   font-size: 78px;
-  padding: 8rem 0 1rem 0;
+  padding: 4rem 0 1rem 0;
 }
 
 .lp__under-title-2 {
-  padding: 0 0 6rem 0;
+  padding: 0 0 3rem 0;
 }
 
 .lp__btn {
   display: flex;
   justify-content: center;
-  padding: 10rem 0;
+  padding: 7rem 0;
 }
 
 .button-1 {
@@ -143,6 +144,8 @@ LANDING PAGE
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 100;
+  cursor: pointer;
 }
 
 .scroll__icon {
@@ -163,6 +166,7 @@ LANDING PAGE
   border-radius: 2px;
   animation: scroll 1000ms infinite alternate-reverse;
 }
+
 
 @keyframes scroll {
   0% {
@@ -187,7 +191,7 @@ PORSCHE
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateX(-25%);
+  transform: translateX(-30%);
 }
 
 .porsche__logo {
@@ -196,6 +200,7 @@ PORSCHE
 }
 
 .porsche__911 {
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-5%, -27%);
 }
