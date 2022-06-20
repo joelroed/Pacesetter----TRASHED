@@ -190,11 +190,8 @@ PORSCHE
 
 */
 
-#porsche {
-  **
-}
-
 .porsche__page {
+  transform: translateY(30%);
   background-color: hsla(210, 20%, 96%, .5);
 }
 
@@ -225,14 +222,10 @@ PORSCHE
 }
 
 .porsche__911 {
-  width: 70%;
-  height: 70%;
+  width: 70% !important;
+  height: 70% !important;
   overflow: hidden;
-  transform: translate(15%, -40%);
-}
-
-.porsche__911--wrapper {
-  transform: scaleX(-1);
+  transform: translate(22.5%, -40%) scaleX(-1);
 }
 
 .porsche__title-txt {
@@ -255,4 +248,26 @@ PORSCHE
 .porsche__title-3 {
   font-size: 16px;
   font-weight: 500;
+}
+
+.specs__btn {
+  background-color: #fff;
+  color: #242424;
+  border: 2px solid #fff;
+  border-radius: 9999px;
+  padding: .8rem 3.1rem;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+  display: flex;
+  margin: 0 auto;
+  transform: translate(0, -675%);
+  font-weight: 600;
+}
+
+#fa__arrow--right {
+  padding: 0 10%;
+  transform: translateY(10%);
+  margin: 0 auto;
+  color: hsl(3, 86%, 26%);
 }
