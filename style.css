@@ -225,8 +225,34 @@ PORSCHE
 }
 
 .porsche__911 {
-  width: 120%;
-  height: 120%;
-  transform: translate(-5%, -35%);
+  width: 70%;
+  height: 70%;
   overflow: hidden;
+  transform: translate(15%, -40%);
+}
+
+.porsche__911--wrapper {
+  transform: scaleX(-1);
+}
+
+.porsche__title-txt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transform: translate(25%, 15%);
+}
+
+.porsche__title {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.porsche__title-2 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.porsche__title-3 {
+  font-size: 16px;
+  font-weight: 500;
 }
